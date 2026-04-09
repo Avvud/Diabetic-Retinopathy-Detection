@@ -1,0 +1,58 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Large Model weights
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.weights
+
+# Datasets and Large Binary Files
+gaussian_filtered_images/
+*.zip
+*.tar.gz
+*.7z
+
+# Inference Results and Artifacts
+inference_results/
+gradio_inference_results/
+results/
+prediction_result.png
+final_comparison.png
+model_comparison.png
+training_curves.png
+confusion_matrix_*.png
+
+# UI / Local Settings
+.gradio/
+.dist/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/

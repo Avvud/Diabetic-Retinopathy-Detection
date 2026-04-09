@@ -1,0 +1,16 @@
+[project]
+name = "iris-detection"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    # PyTorch pipeline (install GPU wheel separately if CUDA is available)
+    "torch>=2.2",
+    "torchvision>=0.17",
+    "ipykernel",
+    "numpy",
+    "pillow",
+    "matplotlib",
+    "seaborn",           # confusion-matrix heatmaps
+    "scikit-learn",      # classification_report, confusion_matrix
+    "opencv-python",     # Grad-CAM heatmap overlay
+]
